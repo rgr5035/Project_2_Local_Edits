@@ -1,0 +1,29 @@
+<div class="row" id="top-row-buffer"></div>
+  <div class="container blog">
+    <div class="row">
+      
+      <div class="col-md-2 col-sm-2">
+        <a class="btn btn-outline-success rounded-pill" id="manage-lists-btn" href="/lists">Manage Lists</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 member-container">
+        <ul class="list-names collection">
+                            {{#each listmember}}
+                            
+                            <li class="list-group-item d-flex justify-content-between align-items-center" id="listmember">
+
+                                <span>
+                                <h2 class="gift-item-text">{{this.item}}</h2>
+
+                                <p class="gift-desc-text">{{this.desc}}</p>
+                                </span>
+                                <button type="button" class="btn btn-outline-danger rounded-pill delete-btn" data-id={{id}} >Delete</button>
+                                
+                            </li>
+                            {{/each}}
+                        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="../js/members.js" type="text/javascript"></script>

@@ -1,0 +1,102 @@
+body {
+  background: #F6E6D8;
+  font-family: 'Calligraffitti', cursive;
+}
+
+#main-container {
+  align-items: center;
+  padding-top: 95px;
+}
+
+#main-card {
+  align-items: center;
+  width: auto;
+  
+  background: #F6E6D8;
+}
+
+.card-title {
+  color: rgb(80,85,64);
+}
+
+#listmember-container {
+  align-items: center;
+  
+}
+
+#manage-lists-btn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#listmember {
+  background: #F6E6D8;
+  color: rgb(80,85,64);
+}
+
+.gift-item-text {
+  font-size: 40px;
+}
+
+.gift-desc-text {
+  font-size: 30px;
+}
+
+#nav-btns-row {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  /* width: 70%; */
+}
+
+
+#gift-name-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#header {
+  background-color: #8E233F;
+  padding-top: 20px;
+}
+
+#footer {
+  background-color: #8E233F;
+  padding-bottom: 20px;
+}
+
+.btn {
+  font-size: 22px;
+  /* width: 70%; */
+}
+
+#member-name {
+  font-size: 30px;
+  color: rgb(80,85,64);
+}
+
+#add-list-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(80,85,64);
+}
+
+#my-lists-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(80,85,64);
+}
+
+.back-to-lists-btn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  color: rgb(80,85,64);
+}

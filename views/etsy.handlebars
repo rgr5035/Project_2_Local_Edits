@@ -1,0 +1,47 @@
+
+    <!--first row for top 'header buffer'-->
+    <div class="row" id="top-row-buffer"></div>
+
+    <!--Container to hold formatting below-->
+    <div class="container">
+
+        <div class="container hidden">
+            <div class="row back-to-lists-btn">
+                
+                    <a class="btn btn-outline-success rounded-pill" href="/lists">Go to Lists</a>
+                
+            </div>
+        </div>
+
+        <!--second row for "Add List" text-->
+        <div class="row center">
+            <h2 id="api-search-title">Search for a Product</h2>
+        </div>
+
+        <!--third row for entering a name to create a list-->
+        <div class="row">
+            <div class="input-group mb-3">
+                <input id="productName" class="form-control col-9" type="text" placeholder="Search Product" aria-label="Gift Search Name" aria-describedby="button-addon2"></input>
+                <a class="btn btn-outline-success col-3" type="button" id="search-btn">Search</a>
+            </div>
+        </div>
+
+        <!--fourth row for "My Lists" text-->
+        <div class="row">
+            <h2 id="search-results">Results</h2>
+        </div>
+
+
+        <!--fifth row for unordered list to generate data from ListMembers table-->
+        <ul class="list-group" id="resultsDisplay">
+            <a href="#" class="list-group-item" id="result-one"></a>
+            <a href="#" class="list-group-item" id="result-two"></a>
+            <a href="#" class="list-group-item" id="result-three"></a>
+            <a href="#" class="list-group-item" id="result-four"></a>
+            <a href="#" class="list-group-item" id="result-five"></a>
+        </ul>
+
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../js/etsy.js"
+    <script type="text/javascript" src="js/materialize.min.js"></script>

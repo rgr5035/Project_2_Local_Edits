@@ -1,0 +1,49 @@
+<!--Container to hold formatting below-->
+    <div class="container">
+
+        <!--second row for "Add List" text-->
+        <div class="row">
+            <h1 id="add-list-title">Add A List</h1>
+        </div>
+
+        <!--third row for entering a name to create a list-->
+        <div class="row">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control col-9" placeholder="Add Name Here" aria-label="New List Name" aria-describedby="button-addon2" id="add-list-member">
+                <button class="btn btn-outline-success col-3" type="button" id="create-list-btn">Create List</button>
+            </div>
+        </div>
+
+        <!--fourth row for "My Lists" text-->
+        <div class="row">
+            <h2 class="text-decoration-underline" id="my-lists-title">My Lists</h2>
+        </div>
+
+
+
+        <!--fifth row for unordered list to generate data from ListMembers table-->
+        <div class="row">
+            <div class="container" id="listmember-container">
+                <span class"flow-text">
+                    
+                        <ul class="list-group list-group-flush">
+                            {{#each listmembers}}
+                            <li class="list-group-item d-flex justify-content-between align-items-center" id="listmember">
+                                
+                                <span id="member-name">{{name}}</span>
+                                <span>
+                                <a type="button" class="btn btn-outline-success rounded-pill" href="/members/{{id}}" >View List</a>
+                                <a type="button" class="btn btn-outline-success rounded-pill" href="items?listmember_id={{id}}" >Add to List</a> 
+                                <button type="button" class="btn btn-outline-danger rounded-pill delete-btn" data-id={{id}} >Delete</button>
+                                </span>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    
+                </span>
+            </div>
+        </div>
+    </div>
+                    <!--JavaScript at end of body for optimized loading-->
+
+                    <script src="js/lists.js" type="text/javascript"></script>
