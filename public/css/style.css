@@ -100,3 +100,13 @@ body {
 .list-group-item {
   color: rgb(80,85,64);
 }
+
+#api-search-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#search-results {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
