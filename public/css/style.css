@@ -5,13 +5,12 @@ body {
 
 #main-container {
   align-items: center;
-  padding-top: 95px;
+  padding-top: 80px;
 }
 
 #main-card {
   align-items: center;
   width: auto;
-  
   background: #F6E6D8;
 }
 
@@ -68,12 +67,18 @@ body {
   padding-bottom: 10px;
 }
 
+#buffer {
+  padding-bottom: 20px;
+  background-color: rgb(25, 78, 25);
+}
+
 #footer {
   background-color: #8E233F;
   padding-top: 10px;
   color:  #F6E6D8;
   font-size: 15px;
   padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn {
