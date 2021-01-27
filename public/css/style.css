@@ -62,12 +62,18 @@ body {
 
 #header {
   background-color: #8E233F;
-  padding-top: 20px;
+  padding-top: 10px;
+  color:  #F6E6D8;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 #footer {
   background-color: #8E233F;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  color:  #F6E6D8;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 
 .btn {
@@ -109,4 +115,9 @@ body {
 #search-results {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#github-link {
+  color:  #F6E6D8;
+  
 }
