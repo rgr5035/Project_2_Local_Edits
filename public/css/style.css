@@ -1,6 +1,7 @@
 body {
   background: #F6E6D8;
   font-family: 'ABeeZee', sans-serif;
+  color:  rgb(80,85,64);
 }
 
 #main-container {
@@ -9,12 +10,6 @@ body {
   padding-top: 80px;
 }
 
-
-.card-title {
-  color: rgb(80,85,64);
-  justify-content: center;
-  font-family: 'ABeeZee', sans-serif;
-}
 
 #listmember-container {
   align-items: center;
