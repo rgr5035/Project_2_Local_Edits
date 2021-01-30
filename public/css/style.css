@@ -1,17 +1,19 @@
 body {
   background: #F6E6D8;
-  font-family: 'Calligraffitti', cursive;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 #main-container {
   align-items: center;
+  justify-content: center;
   padding-top: 80px;
 }
 
 
-
 .card-title {
   color: rgb(80,85,64);
+  justify-content: center;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 #listmember-container {
@@ -74,7 +76,7 @@ body {
   color:  #F6E6D8;
   font-size: 15px;
   padding-bottom: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .btn {
