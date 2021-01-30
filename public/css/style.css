@@ -8,11 +8,7 @@ body {
   padding-top: 80px;
 }
 
-#main-card {
-  align-items: center;
-  width: auto;
-  background: #F6E6D8;
-}
+
 
 .card-title {
   color: rgb(80,85,64);
