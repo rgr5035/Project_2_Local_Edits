@@ -57,6 +57,6 @@ search = (event) => {
 
 
 //event listener
-searchBtn.addEventListener('click', search);
+searchBtn.addEventListener('touchstart click', search);
 
 
