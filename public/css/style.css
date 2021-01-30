@@ -10,6 +10,16 @@ body {
   padding-top: 80px;
 }
 
+.fade-in {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
 
 #listmember-container {
   align-items: center;
