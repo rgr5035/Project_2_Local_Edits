@@ -10,10 +10,8 @@ This is a simple application for users to create personalized holiday shopping l
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Screenshot](#screenshot)
 * [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
 * [Questions](#questions)
 
 ## Installation
@@ -22,23 +20,20 @@ If you wish to work with the application locally and have access to mySQL workbe
 
 ## Usage
 
-Please follow the live site link to view the application: 
+Please follow the live site link to view the application: https://limitless-springs-32990.herokuapp.com/
 
-## Credits
+## Screenshot
 
-undefined
+![Santas-Helper-App](https://user-images.githubusercontent.com/70773240/107090226-23adba80-67bd-11eb-8040-7d4e672c241e.png)
 
 ## Contributing
 
-Collaborative Project contributions by Robby Ray, Lindsay Bordelon and Lily'okalani Hafoka 
+Collaborative Project contributions by:
 
-## Tests
+Robby Ray (contact information below)
+Lindsay Bordelon [Github](https://github.com/lcbordelon)
+Lily'okalani Hafoka [Github](https://github.com/LHafoka13)
 
-N/A
-
-## License
-
-This project is MIT licensed.
 
 ## Questions
 
