@@ -31,7 +31,9 @@ Please follow the live site link to view the application: https://limitless-spri
 Collaborative Project contributions by:
 
 Robby Ray (contact information below)
+
 Lindsay Bordelon [Github](https://github.com/lcbordelon)
+
 Lily'okalani Hafoka [Github](https://github.com/LHafoka13)
 
 
