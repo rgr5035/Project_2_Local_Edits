@@ -29,7 +29,7 @@ module.exports = (app) => {
     );
   });
 
-  // api call to delete (delete) one record in the list_members db
+  // api call to delete one record in the list_members db
   app.delete("/api/lists/:id", (req, res) => {
     db.GiftItem.findAll({
       where: {

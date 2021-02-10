@@ -36,6 +36,7 @@ Lindsay Bordelon [Github](https://github.com/lcbordelon)
 
 Lily'okalani Hafoka [Github](https://github.com/LHafoka13)
 
+NOTE: This repository is an extension of the main project repository. To see the original repository and commits, please click [here](https://github.com/LHafoka13/santas-helper)
 
 ## Questions
 
