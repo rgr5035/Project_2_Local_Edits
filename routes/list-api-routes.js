@@ -29,32 +29,24 @@ module.exports = (app) => {
     );
   });
 
-  // api call to delete one record in the list_members db
+  
+
   app.delete("/api/lists/:id", (req, res) => {
-    db.GiftItem.findAll({
+    db.GiftItem.destroy({
       where: {
-        ListMemberId: req.params.id
-      }
-    }).then((dbGiftItems) => {
-        dbGiftItems.forEach( (GiftItem, index) => {
-            db.GiftItem.destroy({
-              where: {
-                id: GiftItem.id
-              }
-            }).then((dbGiftItem) => {
-              if(index === dbGiftItems.length - 1){
-                db.ListMember.destroy({
-                  where: {
-                    id: req.params.id,
-                  },
-                }).then((dbListMember) => res.json(dbListMember));
-              }
-              res.json(dbGiftItem)
-            })
-        })
+        ListMemberId: req.params.id,
+      },
     })
-
-
-  });
+    
+    .then((dbListMember) => (dbListMember))
+    .then(() => {
+      db.ListMember.destroy({
+        where: {
+          id: req.params.id,
+        },
+      })
+      .then((dbListMember) => res.json(dbListMember))
+    })
+  })
 };
 

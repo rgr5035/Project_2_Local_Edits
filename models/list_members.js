@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
 
   ListMember.associate = (models) => {
     ListMember.hasMany(models.GiftItem, {
-      onDelete: 'cascade',
+      onDelete: 'CASCADE',
     });
   };
 

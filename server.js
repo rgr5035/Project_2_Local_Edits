@@ -25,12 +25,6 @@ const htmlRoute = require("./routes/html-routes-controller.js");
 
 app.use(htmlRoute);
 
-// const itemRoute = require("./routes/item-api-routes.js");
-
-// // Invoke Routes
-// app.use(htmlRoute);
-// app.use(listRoute);
-// // app.use(itemRoute);
 
 // Syncing our sequelize models and then starting our Express app
 db.sequelize.sync().then(() => {
